@@ -1,0 +1,15 @@
+## Look locally for files
+file_client: local
+
+## Salt states and files are in the 'vagrant' mount; skip a shared folder
+file_roots:
+  base:
+    - /vagrant/saltstack/salt
+    - /vagrant/saltstack/formulas/wordpress-formula
+    - /vagrant/saltstack/formulas/apache-formula
+    - /vagrant/saltstack/formulas/php-formula
+    - /vagrant/saltstack/formulas/mysql-formula
+
+pillar_roots:
+  base:
+    - /vagrant/saltstack/pillar

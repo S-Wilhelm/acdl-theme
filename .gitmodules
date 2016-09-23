@@ -1,0 +1,12 @@
+[submodule "saltstack/formulas/apache-formula"]
+	path = saltstack/formulas/apache-formula
+	url = https://github.com/saltstack-formulas/apache-formula
+[submodule "saltstack/formulas/mysql-formula"]
+	path = saltstack/formulas/mysql-formula
+	url = https://github.com/saltstack-formulas/mysql-formula
+[submodule "saltstack/formulas/php-formula"]
+	path = saltstack/formulas/php-formula
+	url = https://github.com/saltstack-formulas/php-formula
+[submodule "saltstack/modules/wordpress-module"]
+	path = saltstack/modules/wordpress-module
+	url = https://github.com/S-Wilhelm/wordpress-module
